@@ -27,7 +27,7 @@ Contient les **annotations personnalisées** utilisées pour déclarer des compo
 Contient le cœur du mini-framework :
 
 - **`XMLApplicationContext`**  
-  Gère l’injection via fichier XML (type Spring XML). Utilise JAXB pour parser les composants définis et Java Reflection pour instancier les classes et injecter les dépendances.
+  Gère l’injection via fichier XML (type Spring XML).
 
 - **`AnnotationApplicationContext`**  
   Scanne dynamiquement le classpath à la recherche de classes annotées avec `@Component`, puis instancie les objets et injecte leurs dépendances selon les annotations `@Inject`.
