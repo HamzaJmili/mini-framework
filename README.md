@@ -68,5 +68,13 @@ Contient le point d’entrée de l’application :
   - L’utilisation de `AnnotationApplicationContext` (injection par annotations)
 
 ---
+## 7. Résultat attendu
+
+Dans les deux modes, la console affiche une valeur numérique calculée, par exemple :
+
+```
+Résultat = 40.0
+```
+![Résultat](images/1.png)
 
 
